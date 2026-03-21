@@ -1,0 +1,15 @@
+{
+  "itemGroup.arcado.main": "MnA: Arcane Adornment",
+
+  "tooltip.arcado.prefix.gold": "Gold: ",
+  "tooltip.arcado.prefix.silver": "Silver: ",
+
+  "item.arcado.jewel_garnet": "Garnet",
+  "item.arcado.jewel_citrine": "Citrine",
+  "item.arcado.jewel_peridot": "Peridot",
+  "item.arcado.jewel_tourmaline": "Tourmaline",
+  "item.arcado.jewel_kunzite": "Kunzite",
+  "item.arcado.jewel_spinel": "Spinel",
+  "item.arcado.jewel_onyx": "Onyx",
+  "item.arcado.jewel_zircon": "Zircon"
+}

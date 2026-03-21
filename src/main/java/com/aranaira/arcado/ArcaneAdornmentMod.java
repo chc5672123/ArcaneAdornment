@@ -1,5 +1,7 @@
 package com.aranaira.arcado;
 
+import com.aranaira.arcado.registry.CreativeTabRegistry;
+import com.aranaira.arcado.registry.ItemRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -45,7 +47,10 @@ public class ArcaneAdornmentMod
 
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ItemRegistry.register(eventBus);
+
         if(FMLEnvironment.dist.isClient()) {
+            CreativeTabRegistry.register(eventBus);
         }
 
         eventBus.addListener(this::commonSetup);
