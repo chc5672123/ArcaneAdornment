@@ -38,8 +38,8 @@ public class ItemRegistry {
             () -> new JewelItem(new Item.Properties(), DyeColor.PURPLE)
     );
 
-    public static final RegistryObject<Item> JEWEL_SPINEL = ITEMS.register("jewel_kunzite",
-            () -> new JewelItem(new Item.Properties(), DyeColor.PURPLE)
+    public static final RegistryObject<Item> JEWEL_SPINEL = ITEMS.register("jewel_spinel",
+            () -> new JewelItem(new Item.Properties(), DyeColor.PINK)
     );
 
     public static final RegistryObject<Item> JEWEL_ONYX = ITEMS.register("jewel_onyx",
@@ -74,15 +74,31 @@ public class ItemRegistry {
             () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.GOLD)
     );
 
+    public static final RegistryObject<Item> RING_ONYX_1_GOLD = ITEMS.register("ring_onyx_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> RING_ONYX_2_GOLD = ITEMS.register("ring_onyx_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> RING_ONYX_3_GOLD = ITEMS.register("ring_onyx_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> RING_ONYX_4_GOLD = ITEMS.register("ring_onyx_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> RING_ONYX_5_GOLD = ITEMS.register("ring_onyx_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
     public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_BRACELET = ITEMS.register("mundane_bracelet_gold",
             () -> new Item(new Item.Properties())
     );
 
     public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_AMULET = ITEMS.register("mundane_amulet_gold",
-            () -> new Item(new Item.Properties())
-    );
-
-    public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_CIRCLET = ITEMS.register("mundane_circlet_gold",
             () -> new Item(new Item.Properties())
     );
 
@@ -95,26 +111,6 @@ public class ItemRegistry {
     );
 
     public static final RegistryObject<Item> SILVER_PLATED_MUNDANE_AMULET = ITEMS.register("mundane_amulet_silver",
-            () -> new Item(new Item.Properties())
-    );
-
-    public static final RegistryObject<Item> SILVER_PLATED_MUNDANE_CIRCLET = ITEMS.register("mundane_circlet_silver",
-            () -> new Item(new Item.Properties())
-    );
-
-    public static final RegistryObject<Item> ELECTRUM_PLATED_MUNDANE_RING = ITEMS.register("mundane_ring_electrum",
-            () -> new Item(new Item.Properties())
-    );
-
-    public static final RegistryObject<Item> ELECTRUM_PLATED_MUNDANE_BRACELET = ITEMS.register("mundane_bracelet_electrum",
-            () -> new Item(new Item.Properties())
-    );
-
-    public static final RegistryObject<Item> ELECTRUM_PLATED_MUNDANE_AMULET = ITEMS.register("mundane_amulet_electrum",
-            () -> new Item(new Item.Properties())
-    );
-
-    public static final RegistryObject<Item> ELECTRUM_PLATED_MUNDANE_CIRCLET = ITEMS.register("mundane_circlet_electrum",
             () -> new Item(new Item.Properties())
     );
 

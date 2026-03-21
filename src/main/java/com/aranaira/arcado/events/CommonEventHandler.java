@@ -71,13 +71,38 @@ public class CommonEventHandler {
                     map.put(attributeOptions.getSecond().getAttribute(ji.getGrade()), amS);
                 }
 
-
-
                 event.getEntity().getAttributes().addTransientAttributeModifiers(map);
             }
         }
         else if(event.getFrom().is(TAG_CURIOS)) {
+            if(event.getTo().getItem() instanceof JewelryItem ji) {
+                LinkedHashMultimap<Attribute, AttributeModifier> map = LinkedHashMultimap.create();
+                final Pair<AttributeData, AttributeData> attributeOptions = JewelItem.JEWEL_DATA.get(ji.getColor());
 
+                if (ji.getAlignment() == MetalAlignment.GOLD) {
+                    AttributeModifier am = new AttributeModifier(getAttributeUUID(ji.getColor()), "arcado",
+                            attributeOptions.getFirst().getPure(ji.getGrade()),
+                            AttributeModifier.Operation.ADDITION);
+                    map.put(attributeOptions.getFirst().getAttribute(ji.getGrade()), am);
+                } else if (ji.getAlignment() == MetalAlignment.SILVER) {
+                    AttributeModifier am = new AttributeModifier(getAttributeUUID(ji.getColor()), "arcado",
+                            attributeOptions.getSecond().getPure(ji.getGrade()),
+                            AttributeModifier.Operation.ADDITION);
+                    map.put(attributeOptions.getSecond().getAttribute(ji.getGrade()), am);
+                } else if (ji.getAlignment() == MetalAlignment.ELECTRUM) {
+                    AttributeModifier amG = new AttributeModifier(getAttributeUUID(ji.getColor()), "arcado",
+                            attributeOptions.getFirst().getAlloyed(ji.getGrade()),
+                            AttributeModifier.Operation.ADDITION);
+                    AttributeModifier amS = new AttributeModifier(getAttributeUUID(ji.getColor()), "arcado",
+                            attributeOptions.getSecond().getPure(ji.getGrade()),
+                            AttributeModifier.Operation.ADDITION);
+
+                    map.put(attributeOptions.getFirst().getAttribute(ji.getGrade()), amG);
+                    map.put(attributeOptions.getSecond().getAttribute(ji.getGrade()), amS);
+                }
+
+                event.getEntity().getAttributes().removeAttributeModifiers(map);
+            }
         }
     }
 

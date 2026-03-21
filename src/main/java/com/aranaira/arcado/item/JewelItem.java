@@ -72,7 +72,7 @@ public class JewelItem extends Item {
                     new AttributeData(AttributeRegistry.CAST_SPEED.get(),
                             new double[]{0.18,0.21,0.24,0.27,0.30},
                             new double[]{0.09,0.105,0.12,0.135,0.15}),
-                    new AttributeData(AttributeRegistry.SPELL_EFFICIENCY.get(),
+                    new AttributeData(AttributeRegistry.SPELL_DURATION_MULTIPLIER.get(),
                             new double[]{0.18,0.21,0.24,0.27,0.30},
                             new double[]{0.09,0.105,0.12,0.135,0.15})
             ));
