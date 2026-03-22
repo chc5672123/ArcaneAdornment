@@ -3,6 +3,7 @@ package com.aranaira.arcado.registry;
 import com.aranaira.arcado.ArcaneAdornmentMod;
 import com.aranaira.arcado.foundation.MetalAlignment;
 import com.aranaira.arcado.item.*;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -120,6 +121,12 @@ public class ItemRegistry {
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
+
+        for (RegistryObject<Item> entry : ITEMS.getEntries()) {
+            if(entry.get() instanceof JewelryItem ji) {
+                entry.get().verifyTagAfterLoad(ji.createAttributeTag());
+            }
+        }
 
         if (ModList.get().isLoaded("magichem")) {
             MagiChemItemRegistry.register(eventBus);

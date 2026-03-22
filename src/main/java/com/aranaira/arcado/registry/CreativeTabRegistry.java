@@ -1,6 +1,7 @@
 package com.aranaira.arcado.registry;
 
 import com.aranaira.arcado.ArcaneAdornmentMod;
+import com.aranaira.arcado.item.JewelryItem;
 import com.aranaira.arcado.registry.ItemRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arcado:item/ring_band_grade_1",
+    "layer1": "arcado:item/ring_jewel_grade_1"
+  }
+}

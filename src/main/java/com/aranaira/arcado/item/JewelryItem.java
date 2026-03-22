@@ -1,6 +1,7 @@
 package com.aranaira.arcado.item;
 
 import com.aranaira.arcado.foundation.MetalAlignment;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
@@ -26,6 +27,20 @@ public class JewelryItem extends Item {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+    }
+
+    public CompoundTag createAttributeTag() {
+        CompoundTag out = new CompoundTag();
+        CompoundTag attributeTag = new CompoundTag();
+
+        attributeTag.putString("Slot", "ring");
+        attributeTag.putString("AttributeName", "generic.attack_damage");
+        attributeTag.putString("Name", "generic.attack_damage");
+        attributeTag.putDouble("Amount", 20.0);
+        attributeTag.putInt("Operation", 0);
+
+        out.put("AttributeModifiers", attributeTag);
+        return out;
     }
 
     public int getGrade() {
