@@ -76,23 +76,23 @@ public class ItemRegistry {
     );
 
     public static final RegistryObject<Item> RING_ONYX_1_GOLD = ITEMS.register("ring_onyx_1_gold",
-            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.RED, MetalAlignment.GOLD)
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLACK, MetalAlignment.GOLD)
     );
 
     public static final RegistryObject<Item> RING_ONYX_2_GOLD = ITEMS.register("ring_onyx_2_gold",
-            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.RED, MetalAlignment.GOLD)
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLACK, MetalAlignment.GOLD)
     );
 
     public static final RegistryObject<Item> RING_ONYX_3_GOLD = ITEMS.register("ring_onyx_3_gold",
-            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.RED, MetalAlignment.GOLD)
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLACK, MetalAlignment.GOLD)
     );
 
     public static final RegistryObject<Item> RING_ONYX_4_GOLD = ITEMS.register("ring_onyx_4_gold",
-            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.RED, MetalAlignment.GOLD)
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLACK, MetalAlignment.GOLD)
     );
 
     public static final RegistryObject<Item> RING_ONYX_5_GOLD = ITEMS.register("ring_onyx_5_gold",
-            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.GOLD)
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLACK, MetalAlignment.GOLD)
     );
 
     public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_BRACELET = ITEMS.register("mundane_bracelet_gold",
@@ -121,12 +121,6 @@ public class ItemRegistry {
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
-
-        for (RegistryObject<Item> entry : ITEMS.getEntries()) {
-            if(entry.get() instanceof JewelryItem ji) {
-                entry.get().verifyTagAfterLoad(ji.createAttributeTag());
-            }
-        }
 
         if (ModList.get().isLoaded("magichem")) {
             MagiChemItemRegistry.register(eventBus);
