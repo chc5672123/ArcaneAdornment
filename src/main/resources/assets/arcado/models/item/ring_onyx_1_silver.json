@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "arcado:item/ring_gold_grade1",
+    "layer0": "arcado:item/ring_silver_grade1",
     "layer1": "arcado:item/ring_gem_grade1and2"
   }
 }

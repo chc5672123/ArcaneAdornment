@@ -1,0 +1,7 @@
+{
+  "type": "mna:crushing",
+  "tier": 2,
+  "input": "arcado:ring_tourmaline_1_silver",
+  "output": "arcado:tourmaline",
+  "output_quantity": 1
+}

@@ -23,6 +23,7 @@ import org.jetbrains.annotations.Nullable;
 import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.type.capability.ICurioItem;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
@@ -32,6 +33,8 @@ public class JewelryItem extends Item implements ICurioItem {
     private final int grade;
     private final DyeColor color;
     private final MetalAlignment alignment;
+
+    public static final HashMap<DyeColor, int[]> JEWEL_COLORS = new HashMap();
 
     public JewelryItem(Properties pProperties, int pGrade, DyeColor pColor, MetalAlignment pAlignment) {
         super(pProperties);
@@ -119,5 +122,31 @@ public class JewelryItem extends Item implements ICurioItem {
         }
 
         return out;
+    }
+
+    public int getPackedColor() {
+        if(JEWEL_COLORS.size() == 0) fillColorData();
+
+        int r = JEWEL_COLORS.get(color)[0];
+        int g = JEWEL_COLORS.get(color)[0];
+        int b = JEWEL_COLORS.get(color)[0];
+
+        int pack = r;
+        pack = pack | (g << 8);
+        pack = pack | (b << 16);
+        pack = pack | (255 << 24);
+
+        return pack;
+    }
+
+    private void fillColorData() {
+        JEWEL_COLORS.put(DyeColor.RED, new int[]{170, 0, 0});
+        JEWEL_COLORS.put(DyeColor.YELLOW, new int[]{200, 165, 0});
+        JEWEL_COLORS.put(DyeColor.LIME, new int[]{90, 215, 0});
+        JEWEL_COLORS.put(DyeColor.BLUE, new int[]{0, 65, 200});
+        JEWEL_COLORS.put(DyeColor.PURPLE, new int[]{95, 34, 145});
+        JEWEL_COLORS.put(DyeColor.PINK, new int[]{190, 55, 130});
+        JEWEL_COLORS.put(DyeColor.BLACK, new int[]{35, 25, 45});
+        JEWEL_COLORS.put(DyeColor.WHITE, new int[]{180, 230, 240});
     }
 }
