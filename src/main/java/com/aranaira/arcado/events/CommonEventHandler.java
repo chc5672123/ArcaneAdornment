@@ -75,7 +75,7 @@ public class CommonEventHandler {
             }
         }
         else if(event.getFrom().is(TAG_CURIOS)) {
-            if(event.getTo().getItem() instanceof JewelryItem ji) {
+            if(event.getFrom().getItem() instanceof JewelryItem ji) {
                 LinkedHashMultimap<Attribute, AttributeModifier> map = LinkedHashMultimap.create();
                 final Pair<AttributeData, AttributeData> attributeOptions = JewelItem.JEWEL_DATA.get(ji.getColor());
 
