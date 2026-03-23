@@ -2,6 +2,6 @@
   "type": "mna:crushing",
   "tier": 2,
   "input": "arcado:ring_zircon_1_silver",
-  "output": "arcado:zircon",
+  "output": "arcado:jewel_zircon",
   "output_quantity": 1
 }

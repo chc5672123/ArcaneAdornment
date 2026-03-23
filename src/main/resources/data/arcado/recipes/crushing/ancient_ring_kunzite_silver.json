@@ -2,6 +2,6 @@
   "type": "mna:crushing",
   "tier": 2,
   "input": "arcado:ring_kunzite_1_silver",
-  "output": "arcado:kunzite",
+  "output": "arcado:jewel_kunzite",
   "output_quantity": 1
 }

@@ -15,9 +15,13 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import java.util.ArrayList;
+
 @Mod.EventBusSubscriber(modid = ArcaneAdornmentMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ItemRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ArcaneAdornmentMod.MODID);
+
+    public static final ArrayList<Item> CURIOS = new ArrayList<>();
 
     public static final RegistryObject<Item> JEWEL_GARNET = ITEMS.register("jewel_garnet",
             () -> new JewelItem(new Item.Properties(), DyeColor.RED)

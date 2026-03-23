@@ -2,6 +2,6 @@
   "type": "mna:crushing",
   "tier": 2,
   "input": "arcado:ring_peridot_1_silver",
-  "output": "arcado:peridot",
+  "output": "arcado:jewel_peridot",
   "output_quantity": 1
 }

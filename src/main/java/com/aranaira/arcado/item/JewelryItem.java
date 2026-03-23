@@ -128,8 +128,8 @@ public class JewelryItem extends Item implements ICurioItem {
         if(JEWEL_COLORS.size() == 0) fillColorData();
 
         int r = JEWEL_COLORS.get(color)[0];
-        int g = JEWEL_COLORS.get(color)[0];
-        int b = JEWEL_COLORS.get(color)[0];
+        int g = JEWEL_COLORS.get(color)[1];
+        int b = JEWEL_COLORS.get(color)[2];
 
         int pack = r;
         pack = pack | (g << 8);
