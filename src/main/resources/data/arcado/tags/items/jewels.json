@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "arcado:jewel_garnet",
+    "arcado:jewel_citrine",
+    "arcado:jewel_peridot",
+    "arcado:jewel_tourmaline",
+    "arcado:jewel_kunzite",
+    "arcado:jewel_spinel",
+    "arcado:jewel_onyx",
+    "arcado:jewel_zircon"
+  ]
+}

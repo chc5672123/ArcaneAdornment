@@ -2,32 +2,111 @@
   "type": "minecraft:archaeology",
   "pools": [
     {
-      "bonus_rolls": 0.0,
+      "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:tag",
+          "name": "arcado:jewels",
+          "expand": true,
+          "weight": 27
+        },
+        {
           "type": "minecraft:item",
-          "name": "minecraft:arms_up_pottery_sherd",
+          "name": "minecraft:chimerite_gem",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mna:bed_charm",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brewer_pottery_sherd",
+          "name": "mna:constructs/rune_rod",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mna:constructs/rune_torso",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:brick"
+          "name": "mna:constructs/rune_hips",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "mna:constructs/rune_head",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stick"
+          "name": "mna:constructs/rune_hammer",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mna:constructs/rune_claw",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "mna:constructs/rune_axe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chain",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:painting",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:skeleton_skull",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brick",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flower_pot",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:decorated_pot",
+          "weight": 4
         }
       ],
-      "rolls": 1.0
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 1.0
+        }
+      ]
     }
   ],
   "random_sequence": "arcado:archaeology/standard"

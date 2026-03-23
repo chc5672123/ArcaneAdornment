@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "arcado:ring_garnet_1_gold",
+    "arcado:ring_garnet_1_silver",
+    "arcado:ring_citrine_1_gold",
+    "arcado:ring_citrine_1_silver",
+    "arcado:ring_peridot_1_gold",
+    "arcado:ring_peridot_1_silver",
+    "arcado:ring_tourmaline_1_gold",
+    "arcado:ring_tourmaline_1_silver",
+    "arcado:ring_kunzite_1_gold",
+    "arcado:ring_kunzite_1_silver",
+    "arcado:ring_spinel_1_gold",
+    "arcado:ring_spinel_1_silver",
+    "arcado:ring_onyx_1_gold",
+    "arcado:ring_onyx_1_silver",
+    "arcado:ring_zircon_1_gold",
+    "arcado:ring_zircon_1_silver"
+  ]
+}
