@@ -131,9 +131,9 @@ public class JewelryItem extends Item implements ICurioItem {
         int g = JEWEL_COLORS.get(color)[1];
         int b = JEWEL_COLORS.get(color)[2];
 
-        int pack = r;
+        int pack = b;
         pack = pack | (g << 8);
-        pack = pack | (b << 16);
+        pack = pack | (r << 16);
         pack = pack | (255 << 24);
 
         return pack;
