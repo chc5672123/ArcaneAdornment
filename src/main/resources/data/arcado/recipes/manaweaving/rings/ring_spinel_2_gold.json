@@ -1,0 +1,16 @@
+{
+  "type": "mna:manaweaving-recipe",
+  "tier": 2,
+  "output": "arcado:ring_spinel_2_gold",
+  "items": [
+    "arcado:mundane_ring_gold",
+    "minecraft:slime_ball",
+    "arcado:jewel_spinel"
+  ],
+  "patterns": [
+    "mna:diamond",
+    "mna:diamond",
+    "mna:slash",
+    "mna:diamond"
+  ]
+}

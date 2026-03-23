@@ -2,7 +2,7 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "arcado:item/ring_silver_grade4and5",
-    "layer1": "arcado:item/ring_gem_grade4",
-    "layer2": "arcado:item/ring_gem_grade4_shine"
+    "layer1": "arcado:item/ring_gem_grade5",
+    "layer2": "arcado:item/ring_gem_grade5_shine"
   }
 }
