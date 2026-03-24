@@ -1,0 +1,8 @@
+{
+  "type": "mna:runeforging",
+  "tier": 2,
+  "material": "mna:decoration/transmuted_silver_block",
+  "hits": 10,
+  "pattern": "mna:mundane_amulet",
+  "output": "arcado:mundane_amulet_silver"
+}
