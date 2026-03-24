@@ -1,0 +1,16 @@
+{
+  "type": "mna:manaweaving-recipe",
+  "tier": 2,
+  "output": "arcado:amulet_zircon_2_gold",
+  "items": [
+    "arcado:mundane_amulet_gold",
+    "minecraft:slime_ball",
+    "arcado:jewel_zircon"
+  ],
+  "patterns": [
+    "mna:diamond",
+    "mna:diamond",
+    "mna:slash",
+    "mna:diamond"
+  ]
+}

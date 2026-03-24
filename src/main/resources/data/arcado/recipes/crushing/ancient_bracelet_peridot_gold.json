@@ -1,0 +1,7 @@
+{
+  "type": "mna:crushing",
+  "tier": 2,
+  "input": "arcado:bracelet_peridot_1_gold",
+  "output": "arcado:jewel_peridot",
+  "output_quantity": 1
+}

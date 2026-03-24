@@ -1,0 +1,7 @@
+{
+  "type": "mna:crushing",
+  "tier": 2,
+  "input": "arcado:amulet_garnet_1_gold",
+  "output": "arcado:jewel_garnet",
+  "output_quantity": 1
+}

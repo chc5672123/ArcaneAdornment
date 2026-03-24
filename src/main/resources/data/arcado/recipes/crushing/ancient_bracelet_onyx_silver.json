@@ -1,0 +1,7 @@
+{
+  "type": "mna:crushing",
+  "tier": 2,
+  "input": "arcado:bracelet_onyx_1_silver",
+  "output": "arcado:jewel_onyx",
+  "output_quantity": 1
+}

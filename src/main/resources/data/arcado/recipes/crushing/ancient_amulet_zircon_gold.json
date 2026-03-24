@@ -1,0 +1,7 @@
+{
+  "type": "mna:crushing",
+  "tier": 2,
+  "input": "arcado:amulet_zircon_1_gold",
+  "output": "arcado:jewel_zircon",
+  "output_quantity": 1
+}

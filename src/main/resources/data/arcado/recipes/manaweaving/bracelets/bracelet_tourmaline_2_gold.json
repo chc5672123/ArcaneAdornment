@@ -1,0 +1,16 @@
+{
+  "type": "mna:manaweaving-recipe",
+  "tier": 2,
+  "output": "arcado:bracelet_tourmaline_2_gold",
+  "items": [
+    "arcado:mundane_bracelet_gold",
+    "minecraft:slime_ball",
+    "arcado:jewel_tourmaline"
+  ],
+  "patterns": [
+    "mna:diamond",
+    "mna:diamond",
+    "mna:slash",
+    "mna:diamond"
+  ]
+}
