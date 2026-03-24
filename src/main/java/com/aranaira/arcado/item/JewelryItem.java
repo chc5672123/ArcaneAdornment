@@ -2,14 +2,11 @@ package com.aranaira.arcado.item;
 
 import com.aranaira.arcado.foundation.AttributeData;
 import com.aranaira.arcado.foundation.MetalAlignment;
-import com.google.common.collect.LinkedHashMultimap;
 import com.google.common.collect.Multimap;
 import com.mojang.datafixers.util.Pair;
-import net.minecraft.nbt.CompoundTag;
-import net.minecraft.nbt.ListTag;
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.entity.Entity;
+import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.world.entity.ai.attributes.Attribute;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.item.DyeColor;
@@ -17,8 +14,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
-import net.minecraftforge.common.capabilities.ICapabilityProvider;
-import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.Nullable;
 import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.type.capability.ICurioItem;
@@ -56,6 +51,39 @@ public class JewelryItem extends Item implements ICurioItem {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
+        pTooltipComponents.add(
+                Component.empty()
+                        .append(Component.translatable("tooltip.arcado.curio.wrought"))
+                        .append(getTranslatedMetal().withStyle(ChatFormatting.DARK_AQUA))
+                        .append(Component.translatable("tooltip.arcado.curio.set"))
+                        .append(getTranslatedGem().withStyle(ChatFormatting.DARK_AQUA))
+        );
+        pTooltipComponents.add(
+                Component.empty()
+                        .append(Component.translatable("tooltip.arcado.curio.grade").withStyle(ChatFormatting.DARK_AQUA))
+                        .append(Component.literal(""+grade).withStyle(ChatFormatting.DARK_AQUA))
+        );
+    }
+
+    private MutableComponent getTranslatedMetal() {
+        if(alignment == MetalAlignment.GOLD) return Component.translatable("tooltip.arcado.metal.gold");
+        else if(alignment == MetalAlignment.SILVER) return Component.translatable("tooltip.arcado.metal.silver");
+        else if(alignment == MetalAlignment.ELECTRUM) return Component.translatable("tooltip.arcado.metal.electrum");
+
+        return Component.literal("?");
+    }
+
+    private MutableComponent getTranslatedGem() {
+        if(color == DyeColor.RED) return Component.translatable("item.arcado.jewel_garnet");
+        else if(color == DyeColor.YELLOW) return Component.translatable("item.arcado.jewel_citrine");
+        else if(color == DyeColor.LIME) return Component.translatable("item.arcado.jewel_peridot");
+        else if(color == DyeColor.BLUE) return Component.translatable("item.arcado.jewel_tourmaline");
+        else if(color == DyeColor.PURPLE) return Component.translatable("item.arcado.jewel_kunzite");
+        else if(color == DyeColor.PINK) return Component.translatable("item.arcado.jewel_spinel");
+        else if(color == DyeColor.BLACK) return Component.translatable("item.arcado.jewel_onyx");
+        else if(color == DyeColor.WHITE) return Component.translatable("item.arcado.jewel_zircon");
+
+        return Component.literal("?");
     }
 
     public int getGrade() {

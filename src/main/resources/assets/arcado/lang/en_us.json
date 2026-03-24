@@ -3,6 +3,13 @@
 
   "tooltip.arcado.prefix.gold": "Gold: ",
   "tooltip.arcado.prefix.silver": "Silver: ",
+  "tooltip.arcado.curio.wrought": "Wrought of ",
+  "tooltip.arcado.curio.set": ", set with ",
+  "tooltip.arcado.curio.grade": "Grade ",
+
+  "tooltip.arcado.metal.gold": "Gold",
+  "tooltip.arcado.metal.silver": "Silver",
+  "tooltip.arcado.metal.electrum": "Electrum",
 
   "item.arcado.jewel_garnet": "Garnet",
   "item.arcado.jewel_citrine": "Citrine",
