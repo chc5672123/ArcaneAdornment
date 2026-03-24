@@ -2,6 +2,6 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "arcado:item/amulet_gold_grade1",
-    "layer1": "arcado:item/amulet_gem_grade1and2"
+    "layer1": "arcado:item/amulet_gem_grade12and3"
   }
 }
