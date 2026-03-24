@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arcado:item/amulet_gold_grade3",
+    "layer1": "arcado:item/amulet_gem_grade3",
+    "layer2": "arcado:item/amulet_gem_grade3_shine"
+  }
+}

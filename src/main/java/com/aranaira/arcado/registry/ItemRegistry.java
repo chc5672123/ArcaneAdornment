@@ -23,6 +23,10 @@ public class ItemRegistry {
 
     public static final ArrayList<Item> CURIOS = new ArrayList<>();
 
+    ///////////////////
+    // JEWELS
+    ///////////////////
+
     public static final RegistryObject<Item> JEWEL_GARNET = ITEMS.register("jewel_garnet",
             () -> new JewelItem(new Item.Properties(), DyeColor.RED)
     );
@@ -54,6 +58,10 @@ public class ItemRegistry {
     public static final RegistryObject<Item> JEWEL_ZIRCON = ITEMS.register("jewel_zircon",
             () -> new JewelItem(new Item.Properties(), DyeColor.WHITE)
     );
+
+    ///////////////////
+    // GOLD RINGS
+    ///////////////////
 
     public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_RING = ITEMS.register("mundane_ring_gold",
             () -> new Item(new Item.Properties())
@@ -219,13 +227,345 @@ public class ItemRegistry {
             () -> new JewelryItem(new Item.Properties(), 5, DyeColor.WHITE, MetalAlignment.GOLD)
     );
 
+    ///////////////////
+    // GOLD BRACELETS
+    ///////////////////
+
     public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_BRACELET = ITEMS.register("mundane_bracelet_gold",
             () -> new Item(new Item.Properties())
     );
 
+    public static final RegistryObject<Item> BRACELET_GARNET_1_GOLD = ITEMS.register("bracelet_garnet_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_2_GOLD = ITEMS.register("bracelet_garnet_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_3_GOLD = ITEMS.register("bracelet_garnet_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_4_GOLD = ITEMS.register("bracelet_garnet_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_5_GOLD = ITEMS.register("bracelet_garnet_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_1_GOLD = ITEMS.register("bracelet_citrine_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_2_GOLD = ITEMS.register("bracelet_citrine_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_3_GOLD = ITEMS.register("bracelet_citrine_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_4_GOLD = ITEMS.register("bracelet_citrine_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_5_GOLD = ITEMS.register("bracelet_citrine_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_1_GOLD = ITEMS.register("bracelet_peridot_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_2_GOLD = ITEMS.register("bracelet_peridot_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_3_GOLD = ITEMS.register("bracelet_peridot_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_4_GOLD = ITEMS.register("bracelet_peridot_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_5_GOLD = ITEMS.register("bracelet_peridot_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_1_GOLD = ITEMS.register("bracelet_tourmaline_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_2_GOLD = ITEMS.register("bracelet_tourmaline_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_3_GOLD = ITEMS.register("bracelet_tourmaline_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_4_GOLD = ITEMS.register("bracelet_tourmaline_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_5_GOLD = ITEMS.register("bracelet_tourmaline_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_1_GOLD = ITEMS.register("bracelet_kunzite_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_2_GOLD = ITEMS.register("bracelet_kunzite_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_3_GOLD = ITEMS.register("bracelet_kunzite_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_4_GOLD = ITEMS.register("bracelet_kunzite_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_5_GOLD = ITEMS.register("bracelet_kunzite_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_1_GOLD = ITEMS.register("bracelet_spinel_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_2_GOLD = ITEMS.register("bracelet_spinel_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_3_GOLD = ITEMS.register("bracelet_spinel_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_4_GOLD = ITEMS.register("bracelet_spinel_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_5_GOLD = ITEMS.register("bracelet_spinel_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_1_GOLD = ITEMS.register("bracelet_onyx_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_2_GOLD = ITEMS.register("bracelet_onyx_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_3_GOLD = ITEMS.register("bracelet_onyx_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_4_GOLD = ITEMS.register("bracelet_onyx_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_5_GOLD = ITEMS.register("bracelet_onyx_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_1_GOLD = ITEMS.register("bracelet_zircon_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_2_GOLD = ITEMS.register("bracelet_zircon_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_3_GOLD = ITEMS.register("bracelet_zircon_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_4_GOLD = ITEMS.register("bracelet_zircon_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_5_GOLD = ITEMS.register("bracelet_zircon_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    ///////////////////
+    // GOLD AMULETS
+    ///////////////////
+
     public static final RegistryObject<Item> GOLD_PLATED_MUNDANE_AMULET = ITEMS.register("mundane_amulet_gold",
             () -> new Item(new Item.Properties())
     );
+
+    public static final RegistryObject<Item> AMULET_GARNET_1_GOLD = ITEMS.register("amulet_garnet_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_2_GOLD = ITEMS.register("amulet_garnet_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_3_GOLD = ITEMS.register("amulet_garnet_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_4_GOLD = ITEMS.register("amulet_garnet_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_5_GOLD = ITEMS.register("amulet_garnet_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_1_GOLD = ITEMS.register("amulet_citrine_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_2_GOLD = ITEMS.register("amulet_citrine_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_3_GOLD = ITEMS.register("amulet_citrine_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_4_GOLD = ITEMS.register("amulet_citrine_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_5_GOLD = ITEMS.register("amulet_citrine_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.YELLOW, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_1_GOLD = ITEMS.register("amulet_peridot_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_2_GOLD = ITEMS.register("amulet_peridot_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_3_GOLD = ITEMS.register("amulet_peridot_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_4_GOLD = ITEMS.register("amulet_peridot_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_5_GOLD = ITEMS.register("amulet_peridot_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.LIME, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_1_GOLD = ITEMS.register("amulet_tourmaline_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_2_GOLD = ITEMS.register("amulet_tourmaline_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_3_GOLD = ITEMS.register("amulet_tourmaline_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_4_GOLD = ITEMS.register("amulet_tourmaline_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_5_GOLD = ITEMS.register("amulet_tourmaline_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLUE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_1_GOLD = ITEMS.register("amulet_kunzite_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_2_GOLD = ITEMS.register("amulet_kunzite_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_3_GOLD = ITEMS.register("amulet_kunzite_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_4_GOLD = ITEMS.register("amulet_kunzite_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_5_GOLD = ITEMS.register("amulet_kunzite_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PURPLE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_1_GOLD = ITEMS.register("amulet_spinel_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_2_GOLD = ITEMS.register("amulet_spinel_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_3_GOLD = ITEMS.register("amulet_spinel_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_4_GOLD = ITEMS.register("amulet_spinel_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_5_GOLD = ITEMS.register("amulet_spinel_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PINK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_1_GOLD = ITEMS.register("amulet_onyx_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_2_GOLD = ITEMS.register("amulet_onyx_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_3_GOLD = ITEMS.register("amulet_onyx_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_4_GOLD = ITEMS.register("amulet_onyx_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_5_GOLD = ITEMS.register("amulet_onyx_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLACK, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_1_GOLD = ITEMS.register("amulet_zircon_1_gold",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_2_GOLD = ITEMS.register("amulet_zircon_2_gold",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_3_GOLD = ITEMS.register("amulet_zircon_3_gold",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_4_GOLD = ITEMS.register("amulet_zircon_4_gold",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_5_GOLD = ITEMS.register("amulet_zircon_5_gold",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.WHITE, MetalAlignment.GOLD)
+    );
+
+    ///////////////////
+    // SILVER RINGS
+    ///////////////////
 
     public static final RegistryObject<Item> SILVER_PLATED_MUNDANE_RING = ITEMS.register("mundane_ring_silver",
             () -> new Item(new Item.Properties())
@@ -391,12 +731,340 @@ public class ItemRegistry {
             () -> new JewelryItem(new Item.Properties(), 5, DyeColor.WHITE, MetalAlignment.SILVER)
     );
 
+    ///////////////////
+    // SILVER BRACELETS
+    ///////////////////
+
     public static final RegistryObject<Item> SILVER_PLATED_MUNDANE_BRACELET = ITEMS.register("mundane_bracelet_silver",
             () -> new Item(new Item.Properties())
     );
 
+    public static final RegistryObject<Item> BRACELET_GARNET_1_SILVER = ITEMS.register("bracelet_garnet_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_2_SILVER = ITEMS.register("bracelet_garnet_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_3_SILVER = ITEMS.register("bracelet_garnet_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_4_SILVER = ITEMS.register("bracelet_garnet_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_GARNET_5_SILVER = ITEMS.register("bracelet_garnet_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_1_SILVER = ITEMS.register("bracelet_citrine_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_2_SILVER = ITEMS.register("bracelet_citrine_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_3_SILVER = ITEMS.register("bracelet_citrine_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_4_SILVER = ITEMS.register("bracelet_citrine_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_CITRINE_5_SILVER = ITEMS.register("bracelet_citrine_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_1_SILVER = ITEMS.register("bracelet_peridot_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_2_SILVER = ITEMS.register("bracelet_peridot_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_3_SILVER = ITEMS.register("bracelet_peridot_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_4_SILVER = ITEMS.register("bracelet_peridot_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_PERIDOT_5_SILVER = ITEMS.register("bracelet_peridot_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_1_SILVER = ITEMS.register("bracelet_tourmaline_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_2_SILVER = ITEMS.register("bracelet_tourmaline_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_3_SILVER = ITEMS.register("bracelet_tourmaline_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_4_SILVER = ITEMS.register("bracelet_tourmaline_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_TOURMALINE_5_SILVER = ITEMS.register("bracelet_tourmaline_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_1_SILVER = ITEMS.register("bracelet_kunzite_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_2_SILVER = ITEMS.register("bracelet_kunzite_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_3_SILVER = ITEMS.register("bracelet_kunzite_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_4_SILVER = ITEMS.register("bracelet_kunzite_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_KUNZITE_5_SILVER = ITEMS.register("bracelet_kunzite_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_1_SILVER = ITEMS.register("bracelet_spinel_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_2_SILVER = ITEMS.register("bracelet_spinel_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_3_SILVER = ITEMS.register("bracelet_spinel_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_4_SILVER = ITEMS.register("bracelet_spinel_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_SPINEL_5_SILVER = ITEMS.register("bracelet_spinel_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_1_SILVER = ITEMS.register("bracelet_onyx_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_2_SILVER = ITEMS.register("bracelet_onyx_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_3_SILVER = ITEMS.register("bracelet_onyx_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_4_SILVER = ITEMS.register("bracelet_onyx_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ONYX_5_SILVER = ITEMS.register("bracelet_onyx_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_1_SILVER = ITEMS.register("bracelet_zircon_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_2_SILVER = ITEMS.register("bracelet_zircon_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_3_SILVER = ITEMS.register("bracelet_zircon_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_4_SILVER = ITEMS.register("bracelet_zircon_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> BRACELET_ZIRCON_5_SILVER = ITEMS.register("bracelet_zircon_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    ///////////////////
+    // SILVER AMULETS
+    ///////////////////
+
     public static final RegistryObject<Item> SILVER_PLATED_MUNDANE_AMULET = ITEMS.register("mundane_amulet_silver",
             () -> new Item(new Item.Properties())
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_1_SILVER = ITEMS.register("amulet_garnet_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_2_SILVER = ITEMS.register("amulet_garnet_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_3_SILVER = ITEMS.register("amulet_garnet_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_4_SILVER = ITEMS.register("amulet_garnet_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_GARNET_5_SILVER = ITEMS.register("amulet_garnet_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.RED, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_1_SILVER = ITEMS.register("amulet_citrine_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_2_SILVER = ITEMS.register("amulet_citrine_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_3_SILVER = ITEMS.register("amulet_citrine_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_4_SILVER = ITEMS.register("amulet_citrine_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_CITRINE_5_SILVER = ITEMS.register("amulet_citrine_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.YELLOW, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_1_SILVER = ITEMS.register("amulet_peridot_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_2_SILVER = ITEMS.register("amulet_peridot_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_3_SILVER = ITEMS.register("amulet_peridot_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_4_SILVER = ITEMS.register("amulet_peridot_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_PERIDOT_5_SILVER = ITEMS.register("amulet_peridot_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.LIME, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_1_SILVER = ITEMS.register("amulet_tourmaline_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_2_SILVER = ITEMS.register("amulet_tourmaline_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_3_SILVER = ITEMS.register("amulet_tourmaline_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_4_SILVER = ITEMS.register("amulet_tourmaline_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_TOURMALINE_5_SILVER = ITEMS.register("amulet_tourmaline_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLUE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_1_SILVER = ITEMS.register("amulet_kunzite_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_2_SILVER = ITEMS.register("amulet_kunzite_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_3_SILVER = ITEMS.register("amulet_kunzite_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_4_SILVER = ITEMS.register("amulet_kunzite_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_KUNZITE_5_SILVER = ITEMS.register("amulet_kunzite_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PURPLE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_1_SILVER = ITEMS.register("amulet_spinel_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_2_SILVER = ITEMS.register("amulet_spinel_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_3_SILVER = ITEMS.register("amulet_spinel_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_4_SILVER = ITEMS.register("amulet_spinel_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_SPINEL_5_SILVER = ITEMS.register("amulet_spinel_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.PINK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_1_SILVER = ITEMS.register("amulet_onyx_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_2_SILVER = ITEMS.register("amulet_onyx_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_3_SILVER = ITEMS.register("amulet_onyx_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_4_SILVER = ITEMS.register("amulet_onyx_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ONYX_5_SILVER = ITEMS.register("amulet_onyx_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.BLACK, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_1_SILVER = ITEMS.register("amulet_zircon_1_silver",
+            () -> new JewelryItem(new Item.Properties(), 1, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_2_SILVER = ITEMS.register("amulet_zircon_2_silver",
+            () -> new JewelryItem(new Item.Properties(), 2, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_3_SILVER = ITEMS.register("amulet_zircon_3_silver",
+            () -> new JewelryItem(new Item.Properties(), 3, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_4_SILVER = ITEMS.register("amulet_zircon_4_silver",
+            () -> new JewelryItem(new Item.Properties(), 4, DyeColor.WHITE, MetalAlignment.SILVER)
+    );
+
+    public static final RegistryObject<Item> AMULET_ZIRCON_5_SILVER = ITEMS.register("amulet_zircon_5_silver",
+            () -> new JewelryItem(new Item.Properties(), 5, DyeColor.WHITE, MetalAlignment.SILVER)
     );
 
     ///////////////
