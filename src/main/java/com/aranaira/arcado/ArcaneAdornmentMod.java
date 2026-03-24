@@ -2,6 +2,7 @@ package com.aranaira.arcado;
 
 import com.aranaira.arcado.registry.CreativeTabRegistry;
 import com.aranaira.arcado.registry.ItemRegistry;
+import com.aranaira.arcado.registry.LootModifierRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -48,6 +49,7 @@ public class ArcaneAdornmentMod
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ItemRegistry.register(eventBus);
+        LootModifierRegistry.register(eventBus);
 
         if(FMLEnvironment.dist.isClient()) {
             CreativeTabRegistry.register(eventBus);

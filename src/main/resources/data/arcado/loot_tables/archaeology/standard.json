@@ -12,7 +12,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chimerite_gem",
+          "name": "mna:chimerite_gem",
           "weight": 5
         },
         {
