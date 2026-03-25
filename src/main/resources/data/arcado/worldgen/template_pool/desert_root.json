@@ -16,7 +16,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "arcado:desert_path_left",
-        "processors": []
+        "processors": "minecraft:empty"
       }
     }
   ],

@@ -7,7 +7,7 @@
   "start_pool": "arcado:desert_root",
   "size": 1,
   "start_height": {
-    "absolute": -4
+    "absolute": -1
   },
   "start_jigsaw_name": "arcado:desert_root",
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
