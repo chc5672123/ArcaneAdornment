@@ -1,0 +1,42 @@
+{
+  "name": "arcado:desert_lootable",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "arcado:desert_home",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "arcado:desert_burial",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "arcado:desert_worship",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "arcado:desert_cellar",
+        "processors": []
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

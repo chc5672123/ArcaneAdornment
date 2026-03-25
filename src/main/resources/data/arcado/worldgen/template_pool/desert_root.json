@@ -1,0 +1,24 @@
+{
+  "name": "arcado:desert_root",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "arcado:desert_path_right",
+        "processors": []
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "arcado:desert_path_left",
+        "processors": []
+      }
+    }
+  ],
+  "fallback": "minecraft:empty"
+}
