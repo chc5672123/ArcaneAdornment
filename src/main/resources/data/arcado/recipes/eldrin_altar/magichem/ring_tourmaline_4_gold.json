@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:ring_tourmaline_4_gold",
+        "tier": 4,
+        "items": [
+          "arcado:ring_tourmaline_3_gold",
+          "minecraft:gold_ingot",
+          "mna:mote_water",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "minecraft:gold_ingot",
+          "arcado:jewel_tourmaline"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "WATER",
+            "amount": 1440
+          }
+        ],
+        "colors": [
+          14462276,
+          1261470
+        ]
+      }
+    }
+  ]
+}

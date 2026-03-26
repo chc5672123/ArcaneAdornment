@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:bracelet_kunzite_4_electrum",
+        "tier": 4,
+        "items": [
+          "arcado:bracelet_kunzite_3_electrum",
+          "magichem:perfected_electrum",
+          "mna:mote_fire",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "magichem:perfected_electrum",
+          "arcado:jewel_kunzite"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "FIRE",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          12430444,
+          8013470
+        ]
+      }
+    }
+  ]
+}

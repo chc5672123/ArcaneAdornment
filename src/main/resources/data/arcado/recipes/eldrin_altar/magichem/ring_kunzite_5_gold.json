@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:ring_kunzite_5_gold",
+        "tier": 5,
+        "items": [
+          "arcado:ring_kunzite_4_gold",
+          "arcado:preeminent_polish",
+          "mna:greater_mote_fire",
+          "minecraft:echo_shard",
+          "minecraft:nether_star",
+          "minecraft:echo_shard",
+          "magichem:black_diamond",
+          "arcado:preeminent_polish",
+          "arcado:jewel_kunzite"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "FIRE",
+            "amount": 1440
+          }
+        ],
+        "colors": [
+          14462276,
+          8013470
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:ring_citrine_4_electrum",
+        "tier": 4,
+        "items": [
+          "arcado:ring_citrine_3_electrum",
+          "magichem:perfected_electrum",
+          "mna:mote_air",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "magichem:perfected_electrum",
+          "arcado:jewel_citrine"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "WIND",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          12430444,
+          10389523
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:bracelet_citrine_4_gold",
+        "tier": 4,
+        "items": [
+          "arcado:bracelet_citrine_3_gold",
+          "mna:decoration/transmuted_silver",
+          "mna:mote_air",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "mna:decoration/transmuted_silver",
+          "arcado:jewel_citrine"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "WIND",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          11716811,
+          10389523
+        ]
+      }
+    }
+  ]
+}
