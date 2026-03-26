@@ -4,12 +4,14 @@ package com.aranaira.arcado.events;
 import com.aranaira.arcado.ArcaneAdornmentMod;
 import com.aranaira.arcado.item.JewelryItem;
 import com.aranaira.arcado.registry.ItemRegistry;
+import com.aranaira.arcado.registry.MagiChemItemRegistry;
 import net.minecraft.client.color.item.ItemColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
@@ -27,6 +29,9 @@ public class ClientEventHandler {
             if(entry.get() instanceof JewelryItem ji) {
                 ItemRegistry.CURIOS.add(ji);
             }
+        }
+        if(ModList.get().isLoaded("magichem")) {
+            MagiChemItemRegistry.registerCurios();
         }
 
         event.register((stack, layer) -> {

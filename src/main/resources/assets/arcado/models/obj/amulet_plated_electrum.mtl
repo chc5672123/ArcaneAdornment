@@ -1,0 +1,8 @@
+# Blender MTL File: 'curios.blend'
+# Material Count: 2
+
+newmtl MAIN
+map_Kd mna:item/artifice/curios
+
+newmtl WITH_ELECTRUM_BAND
+map_Kd magichem:block/actuator_fire

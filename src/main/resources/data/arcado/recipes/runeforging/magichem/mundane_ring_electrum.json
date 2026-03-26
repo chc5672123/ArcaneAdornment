@@ -1,0 +1,22 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:runeforging",
+        "tier": 2,
+        "material": "magichem:perfected_electrum_block",
+        "hits": 10,
+        "pattern": "mna:mundane_ring",
+        "output": "arcado:mundane_ring_electrum"
+      }
+      }
+    }
+  ]
+}

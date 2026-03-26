@@ -1,0 +1,22 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "magichem:exaltation",
+        "tier": 3,
+        "result": { "item": "arcado:preeminent_polish", "count": 1 },
+        "items": { "type": "arcado:grimy_grit", "required": 16 },
+        "eldrin": { "type": 44, "required": 85 },
+        "materia": { "type": "magichem:admixture_adornment", "required": 10 },
+        "slurry": 1600
+      }
+    }
+  ]
+}

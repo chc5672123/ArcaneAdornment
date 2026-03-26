@@ -1,0 +1,25 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shapeless",
+        "ingredients": [
+          { "item": "magichem:alchemical_waste_block" },
+          { "item": "minecraft:sand" },
+          { "item": "magichem:alchemical_waste_block" },
+          { "item": "minecraft:sand" }
+        ],
+        "result": {
+          "item": "arcado:grimy_grit"
+        }
+      }
+    }
+  ]
+}
