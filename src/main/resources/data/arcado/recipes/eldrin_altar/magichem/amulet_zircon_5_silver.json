@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:amulet_zircon_5_silver",
+        "tier": 5,
+        "items": [
+          "arcado:amulet_zircon_4_silver",
+          "arcado:preeminent_polish",
+          "mna:greater_mote_earth",
+          "minecraft:echo_shard",
+          "minecraft:nether_star",
+          "minecraft:echo_shard",
+          "magichem:black_diamond",
+          "arcado:preeminent_polish",
+          "arcado:jewel_zircon"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "EARTH",
+            "amount": 1440
+          }
+        ],
+        "colors": [
+          11716811,
+          9740702
+        ]
+      }
+    }
+  ]
+}

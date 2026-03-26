@@ -18,7 +18,7 @@
         "components": [
           { "item": "magichem:admixture_filth", "count": 3 },
           { "item": "magichem:admixture_erosion", "count": 3 },
-          { "item": "magichem:essentia_precious", "count": 1 }
+          { "item": "magichem:essentia_mineral", "count": 1 }
         ]
       }
     }

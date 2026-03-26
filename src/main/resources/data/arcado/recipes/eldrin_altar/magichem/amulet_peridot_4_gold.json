@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:amulet_peridot_4_gold",
+        "tier": 4,
+        "items": [
+          "arcado:amulet_peridot_3_gold",
+          "minecraft:gold_ingot",
+          "mna:mote_water",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "minecraft:gold_ingot",
+          "arcado:jewel_peridot"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "WATER",
+            "amount": 1440
+          }
+        ],
+        "colors": [
+          14462276,
+          4222208
+        ]
+      }
+    }
+  ]
+}

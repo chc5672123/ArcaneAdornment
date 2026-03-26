@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:amulet_citrine_4_onyx",
+        "tier": 4,
+        "items": [
+          "arcado:amulet_citrine_3_onyx",
+          "magichem:perfected_onyx",
+          "mna:mote_earth",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "magichem:perfected_electrum",
+          "arcado:jewel_onyx"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "EARTH",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          12430444,
+          2368555
+        ]
+      }
+    }
+  ]
+}
