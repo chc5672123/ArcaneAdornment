@@ -33,6 +33,14 @@ public class MagiChemItemRegistry {
             () -> new Item(new Item.Properties())
     );
 
+    public static final RegistryObject<Item> GRIMY_GRIT = MAGICHEM_ITEMS.register("grimy_grit",
+            () -> new Item(new Item.Properties())
+    );
+
+    public static final RegistryObject<Item> PREEMINENT_POLISH = MAGICHEM_ITEMS.register("preeminent_polish",
+            () -> new Item(new Item.Properties())
+    );
+
     ///////////////
     // TECHNICAL HELPERS
     ///////////////
