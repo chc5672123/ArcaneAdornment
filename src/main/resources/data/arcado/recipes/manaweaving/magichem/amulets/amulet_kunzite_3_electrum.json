@@ -1,0 +1,33 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:manaweaving-recipe",
+        "tier": 3,
+        "output": "arcado:amulet_kunzite_3_electrum",
+        "items": [
+          "arcado:amulet_kunzite_2_electrum",
+          "magichem:perfected_electrum",
+          "magichem:perfected_electrum",
+          "minecraft:diamond",
+          "arcado:jewel_kunzite",
+          "arcado:preeminent_polish"
+        ],
+        "patterns": [
+          "mna:diamond",
+          "mna:diamond",
+          "mna:slash",
+          "mna:slash",
+          "mna:diamond"
+        ]
+      }
+    }
+  ]
+}
