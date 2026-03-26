@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "magichem"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:bracelet_kunzite_3_silver",
+        "tier": 4,
+        "items": [
+          "arcado:bracelet_kunzite_2_silver",
+          "arcado:jewel_kunzite",
+          "mna:decoration/transmuted_silver",
+          "mna:decoration/transmuted_silver",
+          "minecraft:diamond",
+          "minecraft:diamond",
+          "mna:mote_fire"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "FIRE",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          11716811,
+          8013470
+        ]
+      }
+    }
+  ]
+}

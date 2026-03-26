@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "magichem"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:amulet_spinel_3_silver",
+        "tier": 4,
+        "items": [
+          "arcado:amulet_spinel_2_silver",
+          "arcado:jewel_spinel",
+          "mna:decoration/transmuted_silver",
+          "mna:decoration/transmuted_silver",
+          "minecraft:diamond",
+          "minecraft:diamond",
+          "mna:mote_air"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "WIND",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          11716811,
+          12016543
+        ]
+      }
+    }
+  ]
+}

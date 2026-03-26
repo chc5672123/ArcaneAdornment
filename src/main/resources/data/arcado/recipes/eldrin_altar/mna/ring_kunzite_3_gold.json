@@ -1,0 +1,40 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:not",
+          "value": {
+            "type": "forge:mod_loaded",
+            "modid": "magichem"
+          }
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:ring_kunzite_3_gold",
+        "tier": 4,
+        "items": [
+          "arcado:ring_kunzite_2_gold",
+          "arcado:jewel_kunzite",
+          "minecraft:gold_ingot",
+          "minecraft:gold_ingot",
+          "minecraft:diamond",
+          "minecraft:diamond",
+          "mna:mote_fire"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "FIRE",
+            "amount": 720
+          }
+        ],
+        "colors": [
+          14462276,
+          8013470
+        ]
+      }
+    }
+  ]
+}
