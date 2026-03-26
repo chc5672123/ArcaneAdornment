@@ -11,6 +11,9 @@
   "tooltip.arcado.metal.silver": "Silver",
   "tooltip.arcado.metal.electrum": "Electrum",
 
+  "item.arcado.grimy_grit": "Grimy Grit",
+  "item.arcado.preeminent_polish": "Preeminent Polish",
+
   "item.arcado.jewel_garnet": "Garnet",
   "item.arcado.jewel_citrine": "Citrine",
   "item.arcado.jewel_peridot": "Peridot",
@@ -22,10 +25,13 @@
 
   "item.arcado.mundane_ring_gold": "Gold-Plated Mundane Ring",
   "item.arcado.mundane_ring_silver": "Silver-Plated Mundane Ring",
+  "item.arcado.mundane_ring_electrum": "Electrum-Plated Mundane Ring",
   "item.arcado.mundane_bracelet_gold": "Gold-Plated Mundane Bracelet",
   "item.arcado.mundane_bracelet_silver": "Silver-Plated Mundane Bracelet",
+  "item.arcado.mundane_bracelet_electrum": "Electrum-Plated Mundane Bracelet",
   "item.arcado.mundane_amulet_gold": "Gold-Plated Mundane Amulet",
   "item.arcado.mundane_amulet_silver": "Silver-Plated Mundane Amulet",
+  "item.arcado.mundane_amulet_electrum": "Electrum-Plated Mundane Amulet",
 
   "item.arcado.ring_garnet_1_gold": "Ancient Ring of Ebullience",
   "item.arcado.ring_garnet_2_gold": "Pristine Ring of Ebullience",

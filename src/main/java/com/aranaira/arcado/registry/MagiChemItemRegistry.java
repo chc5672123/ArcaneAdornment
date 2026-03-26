@@ -2,6 +2,7 @@ package com.aranaira.arcado.registry;
 
 import com.aranaira.arcado.ArcaneAdornmentMod;
 import com.aranaira.arcado.item.*;
+import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -52,5 +53,11 @@ public class MagiChemItemRegistry {
     @SuppressWarnings("OptionalGetWithoutIsPresent")
     public static RegistryObject<Item> getRegistryObject(DeferredRegister<Item> register, String name) {
         return register.getEntries().stream().filter(item -> item.getId().getPath().equals(name)).findFirst().get();
+    }
+
+    public static void acceptForCreativeTab(CreativeModeTab.Output output) {
+        MAGICHEM_ITEMS.getEntries().forEach((item) -> {
+            output.accept(item.get());
+        });
     }
 }

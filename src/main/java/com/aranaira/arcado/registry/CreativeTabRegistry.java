@@ -11,6 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegisterEvent;
@@ -27,15 +28,20 @@ public class CreativeTabRegistry {
     public static final RegistryObject<CreativeModeTab> MAIN = CREATIVE_TABS.register("main",
             () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.arcado.main"))
-            .icon(() -> new ItemStack(ItemRegistry.JEWEL_ONYX.get()))
+            .icon(() -> new ItemStack(ItemRegistry.JEWEL_ZIRCON.get()))
             .displayItems((displayParams, output) -> {
                 ItemRegistry.ITEMS.getEntries().forEach((item) -> {
                     output.accept(item.get());
                 });
+                if(ModList.get().isLoaded("magichem")) {
+                    MagiChemItemRegistry.acceptForCreativeTab(output);
+                }
             })
     .build());
 
     public static void register(IEventBus eventBus) {
+
+
         CREATIVE_TABS.register(eventBus);
     }
 }

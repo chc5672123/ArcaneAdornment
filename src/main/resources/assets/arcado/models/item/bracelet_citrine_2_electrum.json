@@ -1,0 +1,8 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "arcado:item/bracelet_electrum_grade2",
+    "layer1": "arcado:item/bracelet_gem_grade1and2",
+    "layer2": "arcado:item/bracelet_gem_grade1and2_shine"
+  }
+}
