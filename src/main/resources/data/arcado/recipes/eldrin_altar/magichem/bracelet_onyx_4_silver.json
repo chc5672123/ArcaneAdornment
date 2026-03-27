@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:bracelet_onyx_4_gold",
+        "output": "arcado:bracelet_onyx_4_silver",
         "tier": 4,
         "items": [
-          "arcado:bracelet_onyx_3_gold",
+          "arcado:bracelet_onyx_3_silver",
           "mna:decoration/transmuted_silver",
           "mna:mote_earth",
           "minecraft:diamond",

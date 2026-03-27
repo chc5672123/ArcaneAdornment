@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:amulet_tourmaline_4_gold",
+        "output": "arcado:amulet_tourmaline_4_silver",
         "tier": 4,
         "items": [
-          "arcado:amulet_tourmaline_3_gold",
+          "arcado:amulet_tourmaline_3_silver",
           "mna:decoration/transmuted_silver",
           "mna:mote_water",
           "minecraft:diamond",

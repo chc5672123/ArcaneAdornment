@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:amulet_citrine_4_onyx",
+        "output": "arcado:amulet_onyx_4_electrum",
         "tier": 4,
         "items": [
-          "arcado:amulet_citrine_3_onyx",
+          "arcado:amulet_onyx_3_electrum",
           "magichem:perfected_onyx",
           "mna:mote_earth",
           "minecraft:diamond",

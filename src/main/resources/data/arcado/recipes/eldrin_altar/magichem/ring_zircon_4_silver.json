@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:ring_zircon_4_gold",
+        "output": "arcado:ring_zircon_4_silver",
         "tier": 4,
         "items": [
-          "arcado:ring_zircon_3_gold",
+          "arcado:ring_zircon_3_silver",
           "mna:decoration/transmuted_silver",
           "mna:mote_earth",
           "minecraft:diamond",

@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:amulet_kunzite_4_gold",
+        "output": "arcado:amulet_kunzite_4_silver",
         "tier": 4,
         "items": [
-          "arcado:amulet_kunzite_3_gold",
+          "arcado:amulet_kunzite_3_silver",
           "mna:decoration/transmuted_silver",
           "mna:mote_fire",
           "minecraft:diamond",

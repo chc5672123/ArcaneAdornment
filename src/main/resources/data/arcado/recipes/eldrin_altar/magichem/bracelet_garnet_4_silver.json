@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:bracelet_garnet_4_gold",
+        "output": "arcado:bracelet_garnet_4_silver",
         "tier": 4,
         "items": [
-          "arcado:bracelet_garnet_3_gold",
+          "arcado:bracelet_garnet_3_silver",
           "mna:decoration/transmuted_silver",
           "mna:mote_fire",
           "minecraft:diamond",

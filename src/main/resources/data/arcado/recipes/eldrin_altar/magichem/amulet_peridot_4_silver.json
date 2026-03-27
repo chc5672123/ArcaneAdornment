@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:amulet_peridot_4_gold",
+        "output": "arcado:amulet_peridot_4_silver",
         "tier": 4,
         "items": [
-          "arcado:amulet_peridot_3_gold",
+          "arcado:amulet_peridot_3_silver",
           "mna:decoration/transmuted_silver",
           "mna:mote_water",
           "minecraft:diamond",
