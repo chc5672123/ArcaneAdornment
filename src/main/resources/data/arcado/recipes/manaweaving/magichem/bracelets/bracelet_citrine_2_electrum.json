@@ -1,0 +1,29 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:manaweaving-recipe",
+        "tier": 2,
+        "output": "arcado:bracelet_citrine_2_electrum",
+        "items": [
+          "arcado:mundane_bracelet_electrum",
+          "minecraft:slime_ball",
+          "arcado:jewel_citrine"
+        ],
+        "patterns": [
+          "mna:diamond",
+          "mna:diamond",
+          "mna:slash",
+          "mna:diamond"
+        ]
+      }
+    }
+  ]
+}
