@@ -10,28 +10,28 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:amulet_tourmaline_4_silver",
+        "output": "arcado:bracelet_spinel_4_gold",
         "tier": 4,
         "items": [
-          "arcado:amulet_tourmaline_3_silver",
-          "mna:transmuted_silver",
-          "mna:mote_water",
+          "arcado:bracelet_spinel_3_gold",
+          "minecraft:gold_ingot",
+          "mna:mote_earth",
           "minecraft:diamond",
           "arcado:preeminent_polish",
           "minecraft:diamond",
           "magichem:mote_achromatic",
-          "mna:transmuted_silver",
-          "arcado:jewel_tourmaline"
+          "minecraft:gold_ingot",
+          "arcado:jewel_spinel"
         ],
         "power_requirements": [
           {
-            "affinity": "WATER",
-            "amount": 720
+            "affinity": "EARTH",
+            "amount": 1440
           }
         ],
         "colors": [
-          11716811,
-          1261470
+          14462276,
+          2368555
         ]
       }
     }

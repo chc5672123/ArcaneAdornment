@@ -14,13 +14,13 @@
         "tier": 4,
         "items": [
           "arcado:amulet_zircon_3_silver",
-          "mna:decoration/transmuted_silver",
+          "mna:transmuted_silver",
           "mna:mote_earth",
           "minecraft:diamond",
           "arcado:preeminent_polish",
           "minecraft:diamond",
           "magichem:mote_achromatic",
-          "mna:decoration/transmuted_silver",
+          "mna:transmuted_silver",
           "arcado:jewel_zircon"
         ],
         "power_requirements": [

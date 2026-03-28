@@ -14,13 +14,13 @@
         "tier": 4,
         "items": [
           "arcado:ring_tourmaline_3_silver",
-          "mna:decoration/transmuted_silver",
+          "mna:transmuted_silver",
           "mna:mote_water",
           "minecraft:diamond",
           "arcado:preeminent_polish",
           "minecraft:diamond",
           "magichem:mote_achromatic",
-          "mna:decoration/transmuted_silver",
+          "mna:transmuted_silver",
           "arcado:jewel_tourmaline"
         ],
         "power_requirements": [

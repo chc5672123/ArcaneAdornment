@@ -4,35 +4,34 @@
     {
       "conditions": [
         {
-          "type": "forge:not",
-          "value": {
-            "type": "forge:mod_loaded",
-            "modid": "magichem"
-          }
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
         }
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:ring_peridot_3_silver",
+        "output": "arcado:bracelet_spinel_4_silver",
         "tier": 4,
         "items": [
-          "arcado:ring_peridot_2_silver",
-          "arcado:jewel_peridot",
+          "arcado:bracelet_spinel_3_silver",
           "mna:transmuted_silver",
+          "mna:mote_earth",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
           "mna:transmuted_silver",
-          "minecraft:diamond",
-          "minecraft:diamond",
-          "mna:mote_water"
+          "arcado:jewel_spinel"
         ],
         "power_requirements": [
           {
-            "affinity": "WATER",
+            "affinity": "EARTH",
             "amount": 720
           }
         ],
         "colors": [
           11716811,
-          4222208
+          2368555
         ]
       }
     }
