@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:ring_spinel_5_electrum",
+        "tier": 5,
+        "items": [
+          "arcado:ring_spinel_4_electrum",
+          "arcado:preeminent_polish",
+          "mna:greater_mote_earth",
+          "minecraft:echo_shard",
+          "minecraft:nether_star",
+          "minecraft:echo_shard",
+          "magichem:black_diamond",
+          "arcado:preeminent_polish",
+          "arcado:jewel_spinel"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "EARTH",
+            "amount": 1440
+          }
+        ],
+        "colors": [
+          12430444,
+          2368555
+        ]
+      }
+    }
+  ]
+}

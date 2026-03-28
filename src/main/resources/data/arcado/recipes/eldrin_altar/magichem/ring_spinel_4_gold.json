@@ -1,0 +1,39 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "magichem"
+        }
+      ],
+      "recipe": {
+        "type": "mna:eldrin-altar",
+        "output": "arcado:ring_spinel_4_gold",
+        "tier": 4,
+        "items": [
+          "arcado:ring_spinel_3_gold",
+          "minecraft:gold_ingot",
+          "mna:mote_earth",
+          "minecraft:diamond",
+          "arcado:preeminent_polish",
+          "minecraft:diamond",
+          "magichem:mote_achromatic",
+          "minecraft:gold_ingot",
+          "arcado:jewel_spinel"
+        ],
+        "power_requirements": [
+          {
+            "affinity": "EARTH",
+            "amount": 1440
+          }
+        ],
+        "colors": [
+          14462276,
+          2368555
+        ]
+      }
+    }
+  ]
+}
