@@ -3,6 +3,7 @@ package com.aranaira.arcado;
 import com.aranaira.arcado.registry.CreativeTabRegistry;
 import com.aranaira.arcado.registry.ItemRegistry;
 import com.aranaira.arcado.registry.LootModifierRegistry;
+import com.mna.api.guidebook.RegisterGuidebooksEvent;
 import com.mojang.logging.LogUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
@@ -86,5 +87,10 @@ public class ArcaneAdornmentMod
             event.enqueueWork(() -> {
             });
         }
+    }
+
+    @SubscribeEvent
+    public void onRegisterGuidebooks(RegisterGuidebooksEvent event) {
+        event.getRegistry().addGuidebookPath(new ResourceLocation(MODID, "guide"));
     }
 }

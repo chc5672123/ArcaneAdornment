@@ -1,0 +1,166 @@
+{
+  "Magical Jewelry": {
+    "index": "0",
+    "category": "artifice",
+    "tier": 1,
+    "sections": [
+      {
+        "type": "title",
+        "value": "Magical Jewelry"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "Magical jewelry relies on a "
+          },
+          {
+            "text": "special jewel",
+            "color": "dark_purple"
+          },
+          {
+            "text": " that reacts with the metal the piece is made out of. Jewels have different effects depending on if they're set into "
+          },
+          {
+            "text": "gold",
+            "color": "dark_purple"
+          },
+          {
+            "text": " or into "
+          },
+          {
+            "text": "silver",
+            "color": "dark_purple"
+          },
+          {
+            "text": ".\n\n"
+          },
+          {
+            "text": "Ancient jewelry",
+            "color": "dark_purple"
+          },
+          {
+            "text": " with magical properties can occasionally be found in the old "
+          },
+          {
+            "text": "treasure chests",
+            "color": "dark_purple"
+          },
+          {
+            "text": " left across the world by a bygone era. These pieces can be worn as-is for a small magical boost, but they can be "
+          },
+          {
+            "text": "enhanced using modern artifice techniques",
+            "color": "dark_purple"
+          },
+          {
+            "text": ".\n\nThe simplest improvement requires setting a jewel in a new piece. A suitable setting can be created by plating a Mundane Amulet, Bracelet, or Ring with a block of an appropriate metal on a Runic Anvil.\n\nJewels can be "
+          },
+          {
+            "text": "retrieved",
+            "color": "dark_purple"
+          },
+          {
+            "text": " from a piece of Ancient jewelry by Construct crushing. Unset jewels can also be found by searching "
+          },
+          {
+            "text": "suspicious sand or gravel",
+            "color": "dark_purple"
+          },
+          {
+            "text": " in "
+          },
+          {
+            "text": "certain structures",
+            "color": "dark_purple"
+          },
+          {
+            "text": ". The Wandering Wizard sells thaumaturgic links to these structures (search her wares for structures that begin with \""
+          },
+          {
+            "text": "arcado",
+            "color": "dark_purple"
+          },
+          {
+            "text": "\").\n\nAs you increase in Tier, "
+          },
+          {
+            "text": "new recipes",
+            "color": "dark_purple"
+          },
+          {
+            "text": " to enhance your magical jewelry will appear in this entry. Magical Jewelry can be enhanced up to "
+          },
+          {
+            "text": "Grade 3",
+            "color": "dark_purple"
+          },
+          {
+            "text": ".\n\nIf "
+          },
+          {
+            "text": "MagiChem",
+            "color": "dark_purple"
+          },
+          {
+            "text": " is installed then magical jewelry can be enhanced up to "
+          },
+          {
+            "text": "Grade 5",
+            "color": "dark_purple"
+          },
+          {
+            "text": " and can be made out of "
+          },
+          {
+            "text": "electrum",
+            "color": "dark_purple"
+          },
+          {
+            "text": " to make pieces that grant a mix of the jewel's Gold and Silver effects."
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crushing",
+        "location": "arcado:crushing/ancient_amulet_tourmaline_gold"
+      },
+      {
+        "type": "runeforging",
+        "location": "arcado:runeforging/common/mundane_amulet_gold"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "arcado:manaweaving/common/amulets/amulet_tourmaline_2_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/mna/amulet_tourmaline_3_gold"
+      },
+      {
+        "type": "crafting",
+        "location": "arcado:crafting/magichem/grimy_grit"
+      },
+      {
+        "type": "exaltation",
+        "location": "arcado:alchemical_exaltation/preeminent_polish"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "arcado:manaweaving/magichem/amulets/amulet_tourmaline_3_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/magichem/amulet_tourmaline_4_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/magichem/amulet_tourmaline_5_gold"
+      }
+    ]
+  },
+  "version": "1.0.0"
+}
