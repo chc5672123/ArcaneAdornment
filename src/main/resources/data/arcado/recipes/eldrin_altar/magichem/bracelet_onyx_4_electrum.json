@@ -10,10 +10,10 @@
       ],
       "recipe": {
         "type": "mna:eldrin-altar",
-        "output": "arcado:bracelet_citrine_4_onyx",
+        "output": "arcado:bracelet_onyx_4_onyx",
         "tier": 4,
         "items": [
-          "arcado:bracelet_citrine_3_onyx",
+          "arcado:bracelet_onyx_3_onyx",
           "magichem:perfected_onyx",
           "mna:mote_earth",
           "minecraft:diamond",
