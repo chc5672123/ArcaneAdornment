@@ -1,0 +1,166 @@
+{
+  "Magical Jewelry": {
+    "index": "0",
+    "category": "artifice",
+    "tier": 1,
+    "sections": [
+      {
+        "type": "title",
+        "value": "魔法珠寶"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "魔法珠寶的奧秘在於一種"
+          },
+          {
+            "text": "特殊的寶石",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，它能與用來打造珠寶的金屬產生反應。寶石鑲嵌在 that reacts with the metal the piece is made out of. Jewels have different effects depending on if they're set into "
+          },
+          {
+            "text": "黃金",
+            "color": "dark_purple"
+          },
+          {
+            "text": "或"
+          },
+          {
+            "text": "白銀",
+            "color": "dark_purple"
+          },
+          {
+            "text": "上，將會產生不同的效果。\n\n往昔年代遺落在世界各地的古老"
+          },
+          {
+            "text": "寶箱",
+            "color": "dark_purple"
+          },
+          {
+            "text": "中，偶爾可以發現擁有魔法特性的"
+          },
+          {
+            "text": "古代珠寶",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。這些飾品可以直接佩帶以提供少量魔法增益，但也可利用"
+          },
+          {
+            "text": "現代工藝技術進行強化",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n最簡單的改進方式是將寶石鑲嵌到一件新的飾品上。要打造合宜的鑲嵌載體，可以在符文鐵砧上，用一塊適當的金屬對普通護身符、普通手鐲或普通戒指進行鍍層。\n\n透過讓構裝體進行打磨，可以從古代珠寶中"
+          },
+          {
+            "text": "回收",
+            "color": "dark_purple"
+          },
+          {
+            "text": "寶石。在"
+          },
+          {
+            "text": "特定結構",
+            "color": "dark_purple"
+          },
+          {
+            "text": "中搜索"
+          },
+          {
+            "text": "可疑的沙或可疑的礫石",
+            "color": "dark_purple"
+          },
+          {
+            "text": "也能發現未鑲嵌寶石。遊蕩巫師會出售與這些結構相關的魔法連接（在她的商品中搜尋以「"
+          },
+          {
+            "text": "arcado",
+            "color": "dark_purple"
+          },
+          {
+            "text": "」開頭的結構）。\n\n每當你提升等階，用以強化你的魔法珠寶的"
+          },
+          {
+            "text": "新配方",
+            "color": "dark_purple"
+          },
+          {
+            "text": "也將隨之出現在這個條目裡。魔法珠寶可被強化至"
+          },
+          {
+            "text": "品級3",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n如果你安裝了"
+          },
+          {
+            "text": "魔法煉金",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，則魔法珠寶可被強化至"
+          },
+          {
+            "text": "品級5",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，並可用"
+          },
+          {
+            "text": "琥珀金",
+            "color": "dark_purple"
+          },
+          {
+            "text": "製作，從而打造出兼具金銀兩種效果的飾品。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crushing",
+        "location": "arcado:crushing/ancient_amulet_tourmaline_gold"
+      },
+      {
+        "type": "runeforging",
+        "location": "arcado:runeforging/common/mundane_amulet_gold"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "arcado:manaweaving/common/amulets/amulet_tourmaline_2_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/mna/amulet_tourmaline_3_gold"
+      },
+      {
+        "type": "crafting",
+        "location": "arcado:crafting/magichem/grimy_grit"
+      },
+      {
+        "type": "exaltation",
+        "location": "arcado:alchemical_exaltation/preeminent_polish"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "arcado:manaweaving/magichem/amulets/amulet_tourmaline_3_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/magichem/amulet_tourmaline_4_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/magichem/amulet_tourmaline_5_gold"
+      }
+    ]
+  },
+  "version": "1.0.0"
+}

@@ -1,0 +1,166 @@
+{
+  "Magical Jewelry": {
+    "index": "0",
+    "category": "artifice",
+    "tier": 1,
+    "sections": [
+      {
+        "type": "title",
+        "value": "魔法珠宝"
+      },
+      {
+        "type": "text",
+        "value": "",
+        "json": [
+          {
+            "text": "魔法珠宝的奥秘在于一种"
+          },
+          {
+            "text": "特殊的宝石",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，它能与用来打造珠宝的金属产生反应。宝石镶嵌在 that reacts with the metal the piece is made out of. Jewels have different effects depending on if they're set into "
+          },
+          {
+            "text": "黄金",
+            "color": "dark_purple"
+          },
+          {
+            "text": "或"
+          },
+          {
+            "text": "白银",
+            "color": "dark_purple"
+          },
+          {
+            "text": "上，将会产生不同的效果。\n\n往昔年代遗落在世界各地的古老"
+          },
+          {
+            "text": "宝箱",
+            "color": "dark_purple"
+          },
+          {
+            "text": "中，偶尔可以发现拥有魔法特性的"
+          },
+          {
+            "text": "古代珠宝",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。这些饰品可以直接佩带以提供少量魔法增益，但也可利用"
+          },
+          {
+            "text": "现代工艺技术进行强化",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n最简单的改进方式是将宝石镶嵌到一件新的饰品上。要打造合宜的镶嵌载体，可以在符文铁砧上，用一块适当的金属对普通护身符、普通手镯或普通戒指进行镀层。\n\n透过让构装体进行打磨，可以从古代珠宝中"
+          },
+          {
+            "text": "回收",
+            "color": "dark_purple"
+          },
+          {
+            "text": "宝石。在"
+          },
+          {
+            "text": "特定结构",
+            "color": "dark_purple"
+          },
+          {
+            "text": "中搜索"
+          },
+          {
+            "text": "可疑的沙子或可疑的沙砾",
+            "color": "dark_purple"
+          },
+          {
+            "text": "也能发现未镶嵌宝石。游荡巫师会出售与这些结构相关的魔法连接（在她的商品中搜寻以“"
+          },
+          {
+            "text": "arcado",
+            "color": "dark_purple"
+          },
+          {
+            "text": "”开头的结构）。\n\n每当你提升等阶，用以强化你的魔法珠宝的"
+          },
+          {
+            "text": "新配方",
+            "color": "dark_purple"
+          },
+          {
+            "text": "也将随之出现在这个条目里。魔法珠宝可被强化至"
+          },
+          {
+            "text": "品级3",
+            "color": "dark_purple"
+          },
+          {
+            "text": "。\n\n如果你安装了"
+          },
+          {
+            "text": "魔法炼金",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，则魔法珠宝可被强化至"
+          },
+          {
+            "text": "品级5",
+            "color": "dark_purple"
+          },
+          {
+            "text": "，并可用"
+          },
+          {
+            "text": "琥珀金",
+            "color": "dark_purple"
+          },
+          {
+            "text": "制作，从而打造出兼具金银两种效果的饰品。"
+          }
+        ]
+      }
+    ],
+    "related_recipes": [
+      {
+        "type": "crushing",
+        "location": "arcado:crushing/ancient_amulet_tourmaline_gold"
+      },
+      {
+        "type": "runeforging",
+        "location": "arcado:runeforging/common/mundane_amulet_gold"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "arcado:manaweaving/common/amulets/amulet_tourmaline_2_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/mna/amulet_tourmaline_3_gold"
+      },
+      {
+        "type": "crafting",
+        "location": "arcado:crafting/magichem/grimy_grit"
+      },
+      {
+        "type": "exaltation",
+        "location": "arcado:alchemical_exaltation/preeminent_polish"
+      },
+      {
+        "type": "manaweaving-altar",
+        "location": "arcado:manaweaving/magichem/amulets/amulet_tourmaline_3_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/magichem/amulet_tourmaline_4_gold"
+      },
+      {
+        "type": "eldrin_altar",
+        "location": "arcado:eldrin_altar/magichem/amulet_tourmaline_5_gold"
+      }
+    ]
+  },
+  "version": "1.0.0"
+}
